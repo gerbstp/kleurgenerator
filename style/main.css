@@ -1,0 +1,32 @@
+
+img {
+    width: 100%;
+    }
+table, h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    }
+
+section {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom:30px;
+}
+td {
+    max-width: 150px;
+    }
+button
+    {
+    background-color: white;
+    border: solid 2px rgb(226, 132, 148);
+    color: rgb(226, 132, 148);
+    padding: 10px;
+    background-color:white;
+    cursor:pointer;
+    }
+#mainheader, footer
+    {
+    background-color:rgb(226, 132, 148);
+    color:white;
+    padding:10px;
+    }
