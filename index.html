@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <title>Kleurvakkengenerator</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="script/myscript.js"></script>
+</head>
+<body>
+    <!--
+        Deze huiswerkopgaven hebben betrekking op les 11 en 12.
+
+        Open in de editor een nieuw bestand met een willekeurige naam.
+        Schrijf in dit bestand een code die voldoet aan de volgende voorwaarden:
+
+            De pagina heeft een titel naar keuze.
+            De pagina bevat een header en een footer met een geschikt formaat en achtergrondkleuren naar keuze.
+            De pagina bevat een tabel met 4 x 4 cellen. Iedere cel heeft een andere achtergrondkleur (en is voorzien van een afzonderlijk ID).
+            In alle cellen in kolom 1 en 3 plaatst u een willekeurig woord. Ieder woord heeft een andere achtergrondkleur.
+            In alle cellen in kolom 2 en 4 plaatst u een afbeelding.
+        Schrijf uw CSS-code in een afzonderlijk CSS-bestand.
+        Zorg voor een werkende koppeling naar dit CSS-bestand in het <head>-gedeelte van uw code.
+        Zet uw pagina online met behulp van GitHub.
+        Stuur GitHub-link of uw domeinnaam via Plaza naar uw docent.
+    	Kijk kritisch naar uw mappenstructuur en de verwijzingen naar de verschillende bestanden in de hoofdcode. In de inleidende les over CSS vindt u informatie over het koppelen van CSS en HTML. In de les over afbeeldingen vindt u informatie over het verwijzen naar afbeeldingsbestanden; die informatie is van belang als u werkt met 'lokale' afbeeldingen in submappen (wat niet noodzakelijk is, maar met het oog op toekomstige lessen en de beroepspraktijk wel wordt aangeraden).
+    -->
+    <header id="mainheader">
+        <h1>De kleurvakgenerator</h1>
+    </header>
+    <section>
+        <article>
+            <header>
+            <h3>Uitleg over de generator</h3>
+        </header>
+        <p>
+            De kleurvakgenerator kiest zelf 16 willekeurige kleuren. De kleuren zijn redelijk licht, <span style="background-color:#777777;color:white;">#777777</span> is de donkerste kleur die mogelijk is. De generator kiest voor elke willekeurige kleur zes cijfers van 7-16 en zoekt het bijbehorende getal of cijfer uit de reeks 0-f. Hij neemt ook het tegenovergestelde getal en gebruikt dat voor de tekst. Dat getal is wel iets lichter (hoger) gemaakt, omdat de kleur anders meestal niet zichtbaar is. Verder plakt hij in de even kolommen een afbeelding en in de oneven kolommen een woord.
+        </p>
+    </article>
+
+    <button onclick="kiesKleur()">Laat maar komen die kleur</button>
+
+    <table>
+        <tr>
+            <td id="td1"></td>
+            <td id="td2"></td>
+            <td id="td3"></td>
+            <td id="td4"></td>
+        </tr>
+        <tr>
+            <td id="td5"></td>
+            <td id="td6"></td>
+            <td id="td7"></td>
+            <td id="td8"></td>
+        </tr>
+        <tr>
+            <td id="td9"></td>
+            <td id="td10"></td>
+            <td id="td11"></td>
+            <td id="td12"></td>
+        </tr>
+        <tr>
+            <td id="td13"> Zei</td>
+            <td id="td14"> iemand</td>
+            <td id="td15"> willekeurige</td>
+            <td id="td16"> kleur!?</td>
+        </tr>
+    </table>
+</section>
+<footer><section>
+<b>Met plezier gefabriceerd door GerbsTP.</b></section>
+</footer>
+</body>
+</html>
